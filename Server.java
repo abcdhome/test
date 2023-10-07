@@ -6,11 +6,10 @@ import java.util.Random;
 
 import java.io.*;
 import java.net.*;
-
 import java.util.Random;
 
 public class Server {
-    private static final int PORT = 12345;
+    private static final int PORT = 8080;
     static final long PROGRAM_DURATION_MS = 10 * 60 * 1000; // 10 minutes in milliseconds
     static long startTime; // System Clock 시작 시간
     private static int clientCount = 0; // 클라이언트 카운트
@@ -228,7 +227,7 @@ public class Server {
     }
 
     public static void main(String[] args) {
-        int port = 12345;
+        int port = 8080;
         try {
             Server server = new Server(port);
             server.start();
@@ -347,7 +346,7 @@ class SystemClock {
 }
 
 public class Server {
-    private static final int PORT = 12345; // 서버 포트 번호
+    private static final int PORT = 8080; // 서버 포트 번호
     private static SystemClock systemClock = new SystemClock(); // 시스템 시간을 관리하는 객체
     private static long Sum = 0; // 클라이언트의 결과를 누적하는 변수
 
@@ -501,7 +500,7 @@ import java.net.*;
 import java.util.Random;
 
 public class Server {
-    private static final int PORT = 12345;
+    private static final int PORT = 8080;
 
     public static void main(String[] args) {
         try (ServerSocket serverSocket = new ServerSocket(PORT)) {
@@ -635,7 +634,7 @@ import java.net.*;
 import java.util.Random;
 
 public class Server {
-    private static final int PORT = 12345;
+    private static final int PORT = 8080;
 
     public static void main(String[] args) {
         try (ServerSocket serverSocket = new ServerSocket(PORT)) {
@@ -774,7 +773,7 @@ import java.net.Socket;
 import java.util.Random;
 
 public class Server {
-    private static final int PORT = 12345;
+    private static final int PORT = 8080;
 
     public static void main(String[] args) {
         try (ServerSocket serverSocket = new ServerSocket(PORT)) {
