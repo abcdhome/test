@@ -6,7 +6,7 @@ import java.net.*;
 
 public class Client {
     private static final String SERVER_ADDRESS = "localhost";
-    private static final int SERVER_PORT = 12345;
+    private static final int SERVER_PORT = 8080;
 
     public static void main(String[] args) {
         try (Socket socket = new Socket(SERVER_ADDRESS, SERVER_PORT);
@@ -81,7 +81,7 @@ import java.net.Socket;
 
 public class Client {
     private static final String SERVER_ADDRESS = "localhost"; // 서버 주소
-    private static final int SERVER_PORT = 12345; // 서버 포트 번호
+    private static final int SERVER_PORT = 8080; // 서버 포트 번호
     private static SystemClock systemClock = new SystemClock(); // 시스템 시간을 관리하는 객체
 
     public static void main(String[] args) {
@@ -146,7 +146,7 @@ import java.net.*;
 
 public class Client {
     private static final String SERVER_ADDRESS = "localhost";
-    private static final int SERVER_PORT = 12345;
+    private static final int SERVER_PORT = 8080;
 
     public static void main(String[] args) {
         try (Socket socket = new Socket(SERVER_ADDRESS, SERVER_PORT);
@@ -231,7 +231,7 @@ import java.net.*;
 
 public class Client {
     private static final String SERVER_ADDRESS = "localhost";
-    private static final int SERVER_PORT = 12345;
+    private static final int SERVER_PORT = 8080;
 
     public static void main(String[] args) {
         try (Socket socket = new Socket(SERVER_ADDRESS, SERVER_PORT);
@@ -283,7 +283,7 @@ import java.net.Socket;
 
 public class Client {
     private static final String SERVER_ADDRESS = "localhost";
-    private static final int SERVER_PORT = 12345;
+    private static final int SERVER_PORT = 8080;
 
     public static void main(String[] args) {
         try (Socket socket = new Socket(SERVER_ADDRESS, SERVER_PORT);
