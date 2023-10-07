@@ -1,0 +1,2 @@
+web: java -jar Server.jar
+worker: java -jar Client.jar
